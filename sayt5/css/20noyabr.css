@@ -1,0 +1,132 @@
+.Header{
+  
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.header-right ul{
+    display: flex;
+}
+
+.header-right ul li{
+
+    list-style: none;
+    width: 20%;
+    padding: 10px;
+    
+}
+.header-left i{
+    justify-content: start;
+}
+
+
+.page img{
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* 1-ci hisse */
+.Pages{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.list i{
+    
+    border-radius: 25%;
+      padding: 40px;
+      width: 25%;
+    justify-content: space-around;
+}
+.list p{
+    justify-content: space-around;
+}
+.list h4{
+justify-content: space-around;
+}
+
+.list:hover .overlay{
+  display: block;
+  background: red;
+   border-radius: 80%;
+}
+
+.list{
+  margin: 10px;
+    position: relative;
+}
+.overlay{
+
+    display: none;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+/* 3-ci hisse son */
+.works{
+    text-align: center;
+}
+
+.Picture{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.sekil{
+    margin:10px;
+    width: 30%;
+}
+.sekil img{
+    width: 100%;
+}
+
+
+.sekil .tex h3{
+    text-align: center;
+}
+
+.sekil .tex p{
+    text-align: center;
+}
+/* 4-ci hisse */
+
+/* .Services{
+    text-align: center;
+}
+.service-text h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.service-text p{
+font-weight: initial;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.first i{
+    margin: 10px;
+   width: 33%;
+  
+}
+.first p{
+    justify-content: flex-end;
+} */
+
+
+.Team{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+   
+}
+.test img{
+    width: 25%;
+    display: block;
+    border-radius: 50%;
+}
+
